@@ -9,5 +9,13 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>in.ashwanthkumar</groupId>
+            <artifactId>my-java-utils</artifactId>
+            <version>0.0.6</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
