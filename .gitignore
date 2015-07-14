@@ -1,2 +1,8 @@
 pkg
 .DS_Store
+.txt
+* .a #忽略所有以 .a结尾的文件
+！lib.a #但lib.a除外
+/TODO   #仅忽略项目根目录下的TODO文件，不包括subdir/TODO
+build/  #忽略Build/目录下的所有文件
+doc/*.txt #会忽略doc/notes.txt但不包括doc/server/arch.txt
